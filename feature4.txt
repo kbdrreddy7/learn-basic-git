@@ -1,1 +1,1 @@
-second changed in master
+f4-1 --> first changed in feature4-->second changed in master --> resolved in combined
