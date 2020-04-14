@@ -1,0 +1,13 @@
+
+till commit 'm19'  ---> understanding the merge & rebase , conflicts
+
+--------- Mirroring the repo-----------
+ 
+ $ git clone --bare url-old
+ $ cd repo
+ $ git lfs fetch -all           // only if the repo contains large files
+ $ gir push --morror url-new
+ $ git lfs push -all url-new    // only if the repo contains large files
+
+
+ // now we can delete bare repo in local system
